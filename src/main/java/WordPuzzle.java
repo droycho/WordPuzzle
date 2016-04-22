@@ -9,14 +9,14 @@ public class WordPuzzle {
 
   }
   public static String userPhrase(String input){
-    String phrase = "That apple is orange";
+    String phrase = "That is an ugly sweater";
 
     for (Integer index = 0 ; index < phrase.length() ; index += 1) {
     phrase = phrase.replace("a","-");
     phrase = phrase.replace("e","-");
     phrase = phrase.replace("i","-");
-    // phrase = phrase.replace("o","-");
-    // phrase = phrase.replace("u","-");
+    phrase = phrase.replace("o","-");
+    phrase = phrase.replace("u","-");
     }
 
     return phrase;
