@@ -1,9 +1,9 @@
 apply plugin: 'java'
 apply plugin: 'application'
 
-archivesBaseName = "coin-combinations"
+archivesBaseName = "wordPuzzle"
 version = '1.0'
-mainClassName = "CoinCombos"
+mainClassName = "WordPuzzle"
 
 repositories {
  mavenCentral()
