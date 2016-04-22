@@ -11,4 +11,11 @@ public class WordPuzzleTest {
     expected = "Th-t -pple is or-nge";
     assertEquals(expected, WordPuzzle.userPhrase("Th-t -pple is or-nge"));
   }
+  @Test
+    public void isUserPhrase_forReplaceLetterE_True() {
+    WordPuzzle phrase = new WordPuzzle();
+    String expected = new String();
+    expected = "Th-t -ppl- is or-ng-";
+    assertEquals(expected, WordPuzzle.userPhrase("Th-t -ppl- is or-ng-"));
+  }
 }
