@@ -17,6 +17,7 @@ _{This is a very simple and basic Java web program designed to demonstrate under
 * Enter the following in address bar: localhost:4567
 * Try it out!
 * You will need to either navigate back to localhost:4567 to play again, or use the back button and refresh.
+* FOR SPEC TESTING: you will need to go WordPuzzle.java and comment out line 33, and comment in line 35 to test for letters a,e,i,o. comment line 34 to test for letter u. 
 
 ## Known Bugs
 
