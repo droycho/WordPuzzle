@@ -18,20 +18,18 @@ public class WordPuzzle {
         get("/results", (request,response) -> {
           Map<String, Object> model = new HashMap<String, Object>();
           model.put("template", "templates/results.vtl");
-
           String input = request.queryParams("input");
           String userPhrase = userPhrase(input);
           String phrase = input;
-
           model.put("phrase", phrase);
           model.put("userPhrase", userPhrase);
           model.put("input", request.queryParams("input"));
           return new ModelAndView(model, layout);
         }, new VelocityTemplateEngine());
   }
+
   public static String userPhrase(String input){
     String phrase = input;
-
     for (Integer index = 0 ; index < phrase.length() ; index += 1) {
     phrase = phrase.replace("a","-");
     phrase = phrase.replace("e","-");
@@ -39,9 +37,6 @@ public class WordPuzzle {
     phrase = phrase.replace("o","-");
     phrase = phrase.replace("u","-");
     }
-
     return phrase;
   }
-
-
 }
