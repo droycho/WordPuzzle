@@ -1,12 +1,19 @@
 <h1 style="background:transparent !important" class="jumbotron">Word-Puzzle!</h1>
 <p id="instructions">
-  Enter a phrase in the input box below. The program will then go through and replace all vowels ("a", "e", "i", "o", "u") with a dash ("-"). <strong>Copy the resulting puzzle and send it to a friend to see if they can figure it out!</strong>
+  Enter a phrase in the input box below. The program will then go through your phrase and replace all vowels ("a", "e", "i", "o", "u", except for "y") with a dash ("-"). <strong>Copy the resulting puzzle and send it to a friend to see if they can figure out the original phrase!</strong>
 </p>
+<br>
+<br>
+<br>
 <form action='/results' method='get'>
   <div class="form-group">
     <label for="input">Enter you phrase here:</label>
+    <br>
+    <br>
     <input id="input" name="input" class="form-control" type="text">
   </div>
-
-  <button type="submit" class="btn btn-info">Remove vowels!</button>
+  <br>
+  <br>
+  <br>
+  <button type="submit" class="btn btn-info">Remove Vowels!</button>
 </form>

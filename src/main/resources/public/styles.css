@@ -1,4 +1,5 @@
 .jumbotron {
+  font-family: 'Calligraffitti', cursive;
   text-align: center;
   font-size: 100px;
   text-shadow: 0 0 10px #020202,
@@ -13,29 +14,25 @@
 body {
   background-image: url("img/background.jpg");
   background-size: cover;
-  font-family: 'Calligraffitti', cursive;
+  font-family: 'Bad Script', cursive;
 }
 #instructions {
-  font-family: 'Permanent Marker', cursive;
   font-size: 20px;
 }
 .well {
-  font-family: 'Permanent Marker', cursive;
   border: none;
   border-color: none;
   text-align: center;
   font-size: 40px;
 }
 label {
-  font-family: 'Permanent Marker', cursive;
   font-size: 30px;
 }
 #input {
-  font-family: 'Permanent Marker', cursive;
   font-size: 40px;
   height: auto;
 }
 .btn {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Calligraffitti', cursive;
   font-size: 30px;
 }
