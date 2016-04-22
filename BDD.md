@@ -20,3 +20,7 @@
 -User enters a phrase and replaces all instances of the letter "u" with a "-".
 * -- "That is an ugly sweater"
 * ---- "Th-t -s -n -gly sw--t-r"
+
+-User enters a phrase and replaces all vowels with a "-".
+* -- "That is an ugly sweater"
+* ---- "Th-t -s -n -gly sw--t-r"

@@ -1,0 +1,23 @@
+#resultTitle {
+  text-align: center;
+}
+.jumbotron {
+  text-align: center;
+  font-family: 'Calligraffitti', cursive;
+  font-size: 100px;
+  text-shadow: 0 0 10px #020202,
+               0 0 20px #f5f5f5,
+               0 0 30px #f5f5f5,
+               0 0 40px #f5f5f5,
+               0 0 70px #f5f5f5,
+               0 0 80px #f5f5f5,
+               0 0 100px #f5f5f5,
+               0 0 150px #f5f5f5;
+}
+body {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+#instructions {
+
+}
