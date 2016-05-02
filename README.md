@@ -1,12 +1,12 @@
-# _{WordPuzzle}_
+# _WordPuzzle_
 
-#### _{Basic Java program focused on BDD.}, {4/22/2016}_
+#### _Basic Java program focused on BDD, 4/22/2016_
 
-#### By _**{DJ Roychoudhury}**_
+#### By _**DJ Roychoudhury**_
 
 ## Description
 
-_{This is a very simple and basic Java web program designed to demonstrate understanding of Java development using BDD. A couple other focuses are in spec testing, integration testing, and proper separation of interface and business logic. the program is designed to take a user's input and return the input without any vowels, with the exception of the vowel "y". The user can then send the output (which is the same as their input, minus the vowels mentioned above) to someone to solve the puzzle. Additional features, such as having the second user guess the original meaning from results page, will come soon.}_
+_This is a very simple and basic Java web program designed to demonstrate understanding of Java development using BDD. A couple other focuses are in spec testing, integration testing, and proper separation of interface and business logic. the program is designed to take a user's input and return the input without any vowels, with the exception of the vowel "y". The user can then send the output (which is the same as their input, minus the vowels mentioned above) to someone to solve the puzzle. Additional features, such as having the second user guess the original meaning from results page, will come soon._
 
 ## Setup/Installation Requirements
 
@@ -17,19 +17,15 @@ _{This is a very simple and basic Java web program designed to demonstrate under
 * Enter the following in address bar: localhost:4567
 * Try it out!
 * You will need to either navigate back to localhost:4567 to play again, or use the back button and refresh.
-* FOR SPEC TESTING: you will need to go WordPuzzle.java and comment out line 33, and comment in line 35 to test for letters a,e,i,o. comment line 34 to test for letter u. 
 
-## Known Bugs
-
-_{No known bugs at this point.}_
 
 ## Support and contact details
 
-_{Please report and issues or bugs in the Epicodus forums (http://forum.epicodus.com/top/all) or send me an email.}_
+_Please report and issues or bugs in the Epicodus forums (http://forum.epicodus.com/top/all) or send me an email._
 
 ## Technologies Used
 
-_{Java, Velocity, Spark, JUnit, Bootstrap, CSS, Google Fonts, Gradle}_
+_Java, Velocity, Spark, JUnit, Bootstrap, CSS, Google Fonts, Gradle_
 
 ### License
 
