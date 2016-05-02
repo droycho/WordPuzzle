@@ -8,36 +8,36 @@ public class WordPuzzleTest {
     public void isUserPhrase_forReplaceLetterA_True() {
     WordPuzzle phrase = new WordPuzzle();
     String expected = new String();
-    expected = "Th-t -pple is or-nge";
-    assertEquals(expected, WordPuzzle.userPhrase("Th-t -pple is or-nge"));
+    expected = "-nd";
+    assertEquals(expected, WordPuzzle.userPhrase("-nd"));
   }
   @Test
     public void isUserPhrase_forReplaceLetterE_True() {
     WordPuzzle phrase = new WordPuzzle();
     String expected = new String();
-    expected = "Th-t -ppl- is or-ng-";
-    assertEquals(expected, WordPuzzle.userPhrase("Th-t -ppl- is or-ng-"));
+    expected = "--k";
+    assertEquals(expected, WordPuzzle.userPhrase("--k"));
   }
   @Test
     public void isUserPhrase_forReplaceLetterI_True() {
     WordPuzzle phrase = new WordPuzzle();
     String expected = new String();
-    expected = "Th-t -ppl- -s or-ng-";
-    assertEquals(expected, WordPuzzle.userPhrase("Th-t -ppl- -s or-ng-"));
+    expected = "-t";
+    assertEquals(expected, WordPuzzle.userPhrase("-t"));
   }
   @Test
     public void isUserPhrase_forReplaceLetterO_True() {
     WordPuzzle phrase = new WordPuzzle();
     String expected = new String();
-    expected = "Th-t -ppl- -s -r-ng-";
-    assertEquals(expected, WordPuzzle.userPhrase("Th-t -ppl- -s -r-ng-"));
+    expected = "-n";
+    assertEquals(expected, WordPuzzle.userPhrase("-n"));
   }
   @Test
     public void isUserPhrase_forReplaceLetterU_True() {
     WordPuzzle phrase = new WordPuzzle();
     String expected = new String();
-    expected = "Th-t -s -n -gly sw--t-r";
-    assertEquals(expected, WordPuzzle.userPhrase("Th-t -s -n -gly sw--t-r"));
+    expected = "-gly";
+    assertEquals(expected, WordPuzzle.userPhrase("-gly"));
   }
   @Test
     public void isUserPhrase_forReplaceAllVowels_True() {
