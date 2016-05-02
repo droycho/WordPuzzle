@@ -44,6 +44,6 @@ public class WordPuzzleTest {
     WordPuzzle phrase = new WordPuzzle();
     String expected = new String();
     expected = "Th-t -s -n -gly sw--t-r";
-    assertEquals(expected, WordPuzzle.userPhrase("Th-t -s -n -gly sw--t-r"));
+    assertEquals(expected, WordPuzzle.userPhrase("That is an ugly sweater"));
   }
 }
