@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="WordPuzzleTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-05-02T19:22:41" hostname="Debjits-MBP" time="0.003">
+<testsuite name="WordPuzzleTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2016-05-02T23:33:17" hostname="epicodus-59.local" time="0.001">
   <properties/>
   <testcase name="isUserPhrase_forReplaceLetterA_True" classname="WordPuzzleTest" time="0.0"/>
-  <testcase name="isUserPhrase_forReplaceLetterE_True" classname="WordPuzzleTest" time="0.001"/>
+  <testcase name="isUserPhrase_forReplaceLetterE_True" classname="WordPuzzleTest" time="0.0"/>
   <testcase name="isUserPhrase_forReplaceLetterI_True" classname="WordPuzzleTest" time="0.0"/>
   <testcase name="isUserPhrase_forReplaceLetterO_True" classname="WordPuzzleTest" time="0.0"/>
-  <testcase name="isUserPhrase_forReplaceLetterU_True" classname="WordPuzzleTest" time="0.001"/>
-  <testcase name="isUserPhrase_forReplaceAllVowels_True" classname="WordPuzzleTest" time="0.001"/>
+  <testcase name="isUserPhrase_forReplaceLetterU_True" classname="WordPuzzleTest" time="0.0"/>
+  <testcase name="isUserPhrase_forReplaceAllVowels_True" classname="WordPuzzleTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
